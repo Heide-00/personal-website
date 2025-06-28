@@ -47,6 +47,7 @@ const Projects = () => {
               </div>
               {/*Siteyi Görüntüle ve GitHub linkleri eklendi*/}
               <div className="flex flex-wrap gap-4 text-sm underline text-blue-800 dark:text-blue-300">
+                {/*data.js de tanımladığım View Site ve GitHub ı tıkladığımda sayfanın en başına geliyorum*/}
                 <a href="#">{project.underlinedtextone}</a>
                 <a href="#">{project.underlinedtexttwo}</a>
               </div>
