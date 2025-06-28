@@ -39,6 +39,7 @@ const Hero = () => {
             <p className="text-sm sm:text-base md:text-lg">{hero.explanation}</p>
 
             <div className="flex flex-col sm:flex-row justify-center md:justify-start items-center gap-3 sm:gap-4 lg:gap-6 mt-4">
+              {/*Butonlara eklediğim linklere tıklayarak o sayfaya yönleniyorum*/}
               <a
                 href="https://github.com"
                 className="px-4 py-2 bg-white text-blue-600 font-semibold rounded hover:bg-gray-200 dark:bg-gray-100 dark:text-blue-700 dark:hover:bg-gray-300 transition"
